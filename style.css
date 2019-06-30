@@ -1,0 +1,66 @@
+body {
+	background-image : url(images/background.jpg)
+}
+
+#D0 {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 1300px;
+}
+
+#B0 {
+    color:floralwhite;
+    background-color: midnightblue;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#A0 {
+    width: 70%;
+    float: left;
+}
+
+#A1 {
+    margin-top: 100px;
+    width: 30%;
+    float: right;
+}
+
+#L0 {
+    margin-top: 50px;
+    width: 77%;
+    margin-right: 160px;
+    float: right;
+    font-size: 35px;
+    color: floralwhite;
+    border-style : double;
+    border-color: darkgray;
+
+}
+#L1 {
+    margin-top: 50px;
+    width: 91%;
+    margin-right: 130px;
+    float: right;
+    font-size: 35px;
+    color: floralwhite;
+    border-style : double;
+    border-color: darkgray;
+
+}
+#L2 {
+    margin-top: 50px;
+    width: 100%;
+    margin-right: 120px;
+    float: right;
+    font-size: 35px;
+    color:green;
+
+}
+#L3 {
+    margin-left: 40%;
+    font-size: 60px;
+    color: lightslategray;
+
+}
