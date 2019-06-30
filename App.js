@@ -89,6 +89,7 @@ function start() {
     document.getElementById("L1").innerHTML = "Number of attempts: " + attempts.toString();
     document.getElementById("L0").innerHTML = "Time taken: 00:00:00";
     document.getElementById("B0").innerHTML = "Restart";
+    document.getElementById("L4").innerHTML = "";
     imgarr = [];
     uimgarr = [];
     bitmap = [];
@@ -142,9 +143,14 @@ function time() {
         }
         document.getElementById("L0").innerHTML = showTime(seconds, minutes, hours);
     }, 1000);
-
-
-
-
-
+}
+function solve() {
+    if (flag != null) {
+        peek();
+        clearTime();
+    }
+    else {
+        document.getElementById("L4").innerHTML = "Sorry! , You should start a game first";
+    }
+    flag = null;
 }
